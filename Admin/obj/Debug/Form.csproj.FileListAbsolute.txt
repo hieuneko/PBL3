@@ -1,0 +1,14 @@
+F:\FoodOrder\Admin\obj\Debug\Form.csprojAssemblyReference.cache
+F:\FoodOrder\Admin\obj\Debug\Admin.CustomerForm.resources
+F:\FoodOrder\Admin\obj\Debug\Admin.DetailForm.resources
+F:\FoodOrder\Admin\obj\Debug\Admin.MainForm.resources
+F:\FoodOrder\Admin\obj\Debug\Admin.Properties.Resources.resources
+F:\FoodOrder\Admin\obj\Debug\Form.csproj.GenerateResource.cache
+F:\FoodOrder\Admin\obj\Debug\Form.csproj.CoreCompileInputs.cache
+F:\FoodOrder\Admin\obj\Debug\Admin.exe
+F:\FoodOrder\Admin\obj\Debug\Admin.pdb
+F:\FoodOrder\Admin\bin\Debug\Admin.exe.config
+F:\FoodOrder\Admin\bin\Debug\Admin.exe
+F:\FoodOrder\Admin\bin\Debug\Admin.pdb
+F:\FoodOrder\Admin\bin\Debug\Guna.UI2.dll
+F:\FoodOrder\Admin\obj\Debug\Form.csproj.CopyComplete

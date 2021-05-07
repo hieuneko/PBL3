@@ -1,0 +1,10 @@
+F:\FoodOrder\Admin\bin\Debug\Admin.exe.config
+F:\FoodOrder\Admin\bin\Debug\Admin.exe
+F:\FoodOrder\Admin\bin\Debug\Admin.pdb
+F:\FoodOrder\Admin\obj\Debug\Admin.csprojAssemblyReference.cache
+F:\FoodOrder\Admin\obj\Debug\Admin.Form1.resources
+F:\FoodOrder\Admin\obj\Debug\Admin.Properties.Resources.resources
+F:\FoodOrder\Admin\obj\Debug\Admin.csproj.GenerateResource.cache
+F:\FoodOrder\Admin\obj\Debug\Admin.csproj.CoreCompileInputs.cache
+F:\FoodOrder\Admin\obj\Debug\Admin.exe
+F:\FoodOrder\Admin\obj\Debug\Admin.pdb
