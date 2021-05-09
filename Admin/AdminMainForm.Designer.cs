@@ -1,7 +1,7 @@
 ﻿
 namespace Admin
 {
-    partial class MainForm
+    partial class AdminMainForm
     {
         /// <summary>
         /// Required designer variable.

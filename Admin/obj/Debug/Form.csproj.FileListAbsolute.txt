@@ -12,3 +12,20 @@ F:\FoodOrder\Admin\bin\Debug\Admin.exe
 F:\FoodOrder\Admin\bin\Debug\Admin.pdb
 F:\FoodOrder\Admin\bin\Debug\Guna.UI2.dll
 F:\FoodOrder\Admin\obj\Debug\Form.csproj.CopyComplete
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\Admin.exe.config
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\Admin.exe
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\Admin.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\Guna.UI2.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Form.csprojAssemblyReference.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.CustomerForm.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.DetailForm.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.ImageForm.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.MainForm.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.Properties.Resources.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Form.csproj.GenerateResource.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Form.csproj.CoreCompileInputs.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Form.csproj.CopyComplete
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.exe
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DBProvider.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DBProvider.pdb

@@ -1,0 +1,6 @@
+C:\Users\XUAN TRONG\Desktop\PBL3\DBProvider\bin\Debug\DBProvider.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\DBProvider\bin\Debug\DBProvider.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\DBProvider\obj\Debug\DBProvider.csproj.CoreCompileInputs.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\DBProvider\obj\Debug\DBProvider.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\DBProvider\obj\Debug\DBProvider.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\DBProvider\obj\Debug\DBProvider.csprojAssemblyReference.cache

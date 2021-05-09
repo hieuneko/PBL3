@@ -165,7 +165,7 @@ namespace Admin
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(590, 357);
+            this.button3.Location = new System.Drawing.Point(533, 357);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(93, 48);
             this.button3.TabIndex = 3;
@@ -193,7 +193,7 @@ namespace Admin
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DetailForm";
             this.Text = "DetailForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

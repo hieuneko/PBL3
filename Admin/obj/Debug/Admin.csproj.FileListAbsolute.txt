@@ -8,3 +8,24 @@ F:\FoodOrder\Admin\obj\Debug\Admin.csproj.GenerateResource.cache
 F:\FoodOrder\Admin\obj\Debug\Admin.csproj.CoreCompileInputs.cache
 F:\FoodOrder\Admin\obj\Debug\Admin.exe
 F:\FoodOrder\Admin\obj\Debug\Admin.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\Admin.exe.config
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\Admin.exe
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\Admin.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DBProvider.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\Guna.UI2.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DBProvider.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.csprojAssemblyReference.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.CustomerForm.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.DetailForm.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.ImageForm.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.MainForm.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.Properties.Resources.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.csproj.GenerateResource.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.csproj.CoreCompileInputs.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.csproj.CopyComplete
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.exe
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DAL.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DTO.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DAL.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DTO.pdb

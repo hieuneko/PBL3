@@ -1,0 +1,11 @@
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\bin\Debug\DAL.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\bin\Debug\DAL.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\bin\Debug\DBProvider.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\bin\Debug\DTO.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\bin\Debug\DBProvider.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\bin\Debug\DTO.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\obj\Debug\DAL.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\DAL\obj\Debug\DAL.pdb
