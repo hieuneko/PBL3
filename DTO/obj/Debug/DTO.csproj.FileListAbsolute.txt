@@ -1,0 +1,5 @@
+C:\Users\XUAN TRONG\Desktop\PBL3\DTO\bin\Debug\DTO.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\DTO\bin\Debug\DTO.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\DTO\obj\Debug\DTO.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\DTO\obj\Debug\DTO.pdb

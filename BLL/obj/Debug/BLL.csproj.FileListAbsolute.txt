@@ -1,0 +1,13 @@
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\bin\Debug\BLL.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\bin\Debug\BLL.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\bin\Debug\DAL.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\bin\Debug\DTO.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\bin\Debug\DBProvider.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\bin\Debug\DAL.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\bin\Debug\DTO.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\bin\Debug\DBProvider.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\obj\Debug\BLL.dll
+C:\Users\XUAN TRONG\Desktop\PBL3\BLL\obj\Debug\BLL.pdb
