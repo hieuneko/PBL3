@@ -18,7 +18,6 @@ C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.csprojAssemblyReference.c
 C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.CustomerForm.resources
 C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.DetailForm.resources
 C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.ImageForm.resources
-C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.MainForm.resources
 C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.Properties.Resources.resources
 C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.csproj.GenerateResource.cache
 C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.csproj.CoreCompileInputs.cache
@@ -29,3 +28,5 @@ C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DAL.dll
 C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DTO.dll
 C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DAL.pdb
 C:\Users\XUAN TRONG\Desktop\PBL3\Admin\bin\Debug\DTO.pdb
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.AdminMainForm.resources
+C:\Users\XUAN TRONG\Desktop\PBL3\Admin\obj\Debug\Admin.UserControl1.resources

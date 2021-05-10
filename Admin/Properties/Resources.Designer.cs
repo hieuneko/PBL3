@@ -73,16 +73,6 @@ namespace Admin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ancohol1 {
-            get {
-                object obj = ResourceManager.GetObject("ancohol1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap contact {
             get {
                 object obj = ResourceManager.GetObject("contact", resourceCulture);
@@ -106,6 +96,16 @@ namespace Admin.Properties {
         internal static System.Drawing.Bitmap drink {
             get {
                 object obj = ResourceManager.GetObject("drink", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap drink1 {
+            get {
+                object obj = ResourceManager.GetObject("drink1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
