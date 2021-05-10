@@ -112,9 +112,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ancohol1.PNG" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\dish.png" />
   </ItemGroup>
   <ItemGroup>
@@ -129,7 +126,9 @@
   <ItemGroup>
     <None Include="Resources\contact.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\dish1.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{7cc7b268-1dc5-4cf3-a75c-6aca0bc45ce8}</Project>
@@ -143,6 +142,15 @@
       <Project>{4294c7e7-86ba-469d-80b7-dd958d52b6a1}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drink1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dish2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drink2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -21,8 +21,8 @@ namespace Admin
         private void button1_Click(object sender, EventArgs e)
         {
             foreach (string path in Directory.GetFiles(@"F:\FoodOrder\Admin\Resources")){
-                imageListMon.Images.Add(Image.FromFile(path));
-                MessageBox.Show(imageListMon.Images.Count + "   " + path);
+               // imageListMon.Images.Add(Image.FromFile(path));
+                //MessageBox.Show(imageListMon.Images.Count + "   " + path);
             }
             
 

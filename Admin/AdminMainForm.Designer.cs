@@ -88,7 +88,7 @@ namespace Admin
             this.TabControl.Margin = new System.Windows.Forms.Padding(4);
             this.TabControl.Name = "TabControl";
             this.TabControl.SelectedIndex = 0;
-            this.TabControl.Size = new System.Drawing.Size(961, 580);
+            this.TabControl.Size = new System.Drawing.Size(991, 622);
             this.TabControl.TabIndex = 0;
             // 
             // tabPage1
@@ -104,7 +104,7 @@ namespace Admin
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(953, 547);
+            this.tabPage1.Size = new System.Drawing.Size(983, 589);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Quản Lý Bàn Ăn";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -222,7 +222,7 @@ namespace Admin
             this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(953, 547);
+            this.tabPage2.Size = new System.Drawing.Size(983, 589);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Món Ăn";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -348,7 +348,7 @@ namespace Admin
             this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage3.Size = new System.Drawing.Size(953, 547);
+            this.tabPage3.Size = new System.Drawing.Size(983, 589);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Danh mục";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -438,20 +438,20 @@ namespace Admin
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(953, 547);
+            this.tabPage4.Size = new System.Drawing.Size(983, 589);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Lịch sử";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // MainForm
+            // AdminMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(961, 580);
+            this.ClientSize = new System.Drawing.Size(991, 622);
             this.Controls.Add(this.TabControl);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "MainForm";
+            this.Name = "AdminMainForm";
             this.Text = "Form1";
             this.TabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

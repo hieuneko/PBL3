@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using DTO;
 using DBProvider;
 using System.Data;
+using System.Windows.Forms;
+
 namespace DAL
 {
     public class DataAccessLayer
@@ -53,6 +55,119 @@ namespace DAL
             catch(Exception e)
             {
                 return null;
+            }
+        }
+        public List<DanhMuc> getAllDanhMuc_DAL()
+        {
+            string query = "select * from DanhMuc";
+            List<DanhMuc> lisDanhMuc = new List<DanhMuc>();
+            foreach (DataRow i in DBHelper.Instance.GetDataTable(query).Rows)
+            {
+                lisDanhMuc.Add(getDanhMuc(i));
+            }
+            return lisDanhMuc;
+        }
+        private DanhMuc getDanhMuc(DataRow i)
+        {
+            return new DanhMuc
+            {
+                TenDanhMuc = i["TenDanhMuc"].ToString(),
+                IdDanhMuc = int.Parse(i["IdDanhMuc"].ToString())
+            };
+        }
+        /////
+        public List<Mon> getAllMon_DAL()
+        {
+            try
+            {
+                string query = "select * from Mon";
+                List<Mon> listMon = new List<Mon>();
+                foreach (DataRow i in DBHelper.Instance.GetDataTable(query).Rows)
+                {
+                    listMon.Add(getMon(i));
+                }
+                return listMon;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        private Mon getMon(DataRow i)
+        {
+            return new Mon
+            {
+                IdMon = int.Parse(i["IdMon"].ToString()),
+                TenMon = i["TenMon"].ToString(),
+                SoLanGoiMon = int.Parse(i["SoLanGoiMon"].ToString()),
+                GiaTien = int.Parse(i["GiaTien"].ToString()),
+                IdDanhMuc = Convert.ToInt32(i["IdDanhMuc"].ToString()),
+                IdAnh = (byte[])i["Gender"]
+
+            };
+        }
+
+        public bool XoaMonTheoIdMon(int IdMon)
+        {
+            try
+            {
+                string query = "delete from Mon where IdMon = @ms ";
+                object[] prams = { IdMon };
+                return DBHelper.Instance.ExecuteNonQuery(query, prams) > 0;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
+        }
+        public bool checkMon(int IdMon)
+        {
+            try
+            {
+                foreach (Mon i in getAllMon_DAL())
+                {
+                    if (i.IdMon == IdMon)
+                    {
+                        return true;
+                        break;
+                    }
+                }
+                return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+        public bool ThemMon(Mon Mon)
+        {
+            try
+            {
+                string query = "insert into Mon( IdMon, TenMon, GiaTien, SoLanGoiMon, IdDanhMuc, IdAnh)" +
+                                   "values ( @idmon , @name , @gia , @solangoi , @idDm , @idAnh )";
+                object[] prams = { Mon.IdMon, Mon.TenMon, Mon.SoLanGoiMon, Mon.IdDanhMuc, Mon.IdAnh };
+                return DBHelper.Instance.ExecuteNonQuery(query, prams) > 0;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("ID món đã tồn tại!");
+                return false;
+            }
+        }
+        public bool EditMon(Mon Mon)
+        {
+            try
+            {
+                string query = "update Mon set TenMon = @name , GiaTien = @gia ," +
+                        " SoLanGoiMon = @solangoi , IdDanhMuc = @idDm , IdAnh = @idAnh where IdMon = @idmon ";
+                object[] prams = { Mon.TenMon, Mon.GiaTien, Mon.SoLanGoiMon, Mon.IdDanhMuc, Mon.IdAnh };
+                return DBHelper.Instance.ExecuteNonQuery(query, prams) > 0;
+
+            }
+            catch (Exception)
+            {
+                return false;
             }
         }
     }
