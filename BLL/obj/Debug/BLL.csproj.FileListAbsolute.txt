@@ -11,3 +11,7 @@ C:\Users\XUAN TRONG\Desktop\PBL3\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cach
 C:\Users\XUAN TRONG\Desktop\PBL3\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\XUAN TRONG\Desktop\PBL3\BLL\obj\Debug\BLL.dll
 C:\Users\XUAN TRONG\Desktop\PBL3\BLL\obj\Debug\BLL.pdb
+E:\GitHub\PBL3\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\GitHub\PBL3\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\GitHub\PBL3\BLL\obj\Debug\BLL.dll
+E:\GitHub\PBL3\BLL\obj\Debug\BLL.pdb

@@ -9,3 +9,14 @@ C:\Users\XUAN TRONG\Desktop\PBL3\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cach
 C:\Users\XUAN TRONG\Desktop\PBL3\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\XUAN TRONG\Desktop\PBL3\DAL\obj\Debug\DAL.dll
 C:\Users\XUAN TRONG\Desktop\PBL3\DAL\obj\Debug\DAL.pdb
+E:\GitHub\PBL3\DAL\bin\Debug\DAL.dll
+E:\GitHub\PBL3\DAL\bin\Debug\DAL.pdb
+E:\GitHub\PBL3\DAL\bin\Debug\DBProvider.dll
+E:\GitHub\PBL3\DAL\bin\Debug\DTO.dll
+E:\GitHub\PBL3\DAL\bin\Debug\DBProvider.pdb
+E:\GitHub\PBL3\DAL\bin\Debug\DTO.pdb
+E:\GitHub\PBL3\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\GitHub\PBL3\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\GitHub\PBL3\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\GitHub\PBL3\DAL\obj\Debug\DAL.dll
+E:\GitHub\PBL3\DAL\obj\Debug\DAL.pdb
