@@ -21,17 +21,18 @@ namespace Admin
         }
         public void setCBBItem()
         {
-            comboBox2.Items.AddRange(BusinessLogicLayer.Instance.GetCBBItems().ToArray());
+            comboBoxDM.Items.AddRange(BusinessLogicLayer.Instance.GetCBBItems().ToArray());
         }
         public void ShowList(string st)
         {
-            dataGridView1.DataSource = null;
-            if (comboBox2.SelectedIndex == -1) MessageBox.Show("Chon Danh Muc");
+            dataGridViewDSMon.DataSource = null;
+            if (comboBoxDM.SelectedIndex == -1) MessageBox.Show("Chon Danh Muc");
             else
             {
-                int ID = ((CBBItem)comboBox2.SelectedItem).IdDanhMuc;
-                dataGridView2.DataSource = BusinessLogicLayer.Instance.getListMonBySearch_BLL(ID,st);
-                this.dataGridView1.Columns[0].Visible = false;
+                int ID = ((CBBItem)comboBoxDM.SelectedItem).IdDanhMuc;
+                dataGridViewDSMon.DataSource = BusinessLogicLayer.Instance.getListMonBySearch_BLL(ID,st);
+                this.dataGridViewDSMon.Columns["IdMon"].Visible = false;
+                this.dataGridViewDSMon.Columns["IdAnh"].Visible = false;
             }
         }
         private void button_Show(object sender, EventArgs e)
@@ -40,7 +41,7 @@ namespace Admin
         }
         private void button_Search(object sender, EventArgs e)
         {
-            string st = textBox2.Text;
+            string st = textBoxSearch.Text;
             ShowList(st);
         }
 

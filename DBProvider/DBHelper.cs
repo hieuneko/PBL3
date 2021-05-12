@@ -11,7 +11,8 @@ namespace DBProvider
     {
         private SqlConnection conn { get; set; }
         private static DBHelper _Instance;
-        private string conStr = "Server = XUANTRONG\\SQLEXPRESS2019; database = PBL3; user id = sa; pwd = 06112000";
+        //private string conStr = "Server = XUANTRONG\\SQLEXPRESS2019; database = PBL3; user id = sa; pwd = 06112000";
+        private string conStr = @"Data Source = ADMIN;Initial Catalog = PBL3; Integrated Security = True";
         public static DBHelper Instance
         {
             get

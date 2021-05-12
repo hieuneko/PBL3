@@ -13,7 +13,7 @@ namespace DTO
         public int GiaTien { get; set; }
         public int SoLanGoiMon { get; set; }
         public int IdDanhMuc { get; set; }
-        public byte[] IdAnh { get; set; }
+        public int IdAnh { get; set; }
         public override string ToString()
         {
             return TenMon;

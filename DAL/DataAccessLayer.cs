@@ -88,7 +88,7 @@ namespace DAL
                 }
                 return listMon;
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 return null;
             }
@@ -146,12 +146,12 @@ namespace DAL
         {
             return new Mon
             {
-                IdMon = int.Parse(i["IdMon"].ToString()),
+                IdMon = Convert.ToInt32(i["IdMon"]),
                 TenMon = i["TenMon"].ToString(),
-                SoLanGoiMon = int.Parse(i["SoLanGoiMon"].ToString()),
-                GiaTien = int.Parse(i["GiaTien"].ToString()),
-                IdDanhMuc = Convert.ToInt32(i["IdDanhMuc"].ToString()),
-                IdAnh = (byte[])i["Gender"]
+                SoLanGoiMon = Convert.ToInt32(i["SoLanGoiMon"]),
+                GiaTien = Convert.ToInt32(i["GiaTien"]),
+                IdDanhMuc = Convert.ToInt32(i["IdDanhMuc"]),
+                IdAnh = Convert.ToInt32(i["IdAnh"]),
 
             };
         }
