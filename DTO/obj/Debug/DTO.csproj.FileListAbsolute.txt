@@ -4,3 +4,8 @@ C:\Users\XUAN TRONG\Desktop\PBL3\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cach
 C:\Users\XUAN TRONG\Desktop\PBL3\DTO\obj\Debug\DTO.dll
 C:\Users\XUAN TRONG\Desktop\PBL3\DTO\obj\Debug\DTO.pdb
 C:\Users\XUAN TRONG\Desktop\PBL3\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\GitHub\PBL3\DTO\bin\Debug\DTO.dll
+E:\GitHub\PBL3\DTO\bin\Debug\DTO.pdb
+E:\GitHub\PBL3\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\GitHub\PBL3\DTO\obj\Debug\DTO.dll
+E:\GitHub\PBL3\DTO\obj\Debug\DTO.pdb

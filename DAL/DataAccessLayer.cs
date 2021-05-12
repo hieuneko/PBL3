@@ -93,6 +93,55 @@ namespace DAL
                 return null;
             }
         }
+        public List<Mon> getListMonById(int ID)
+        {
+            List<Mon> data = new List<Mon>();
+            if (ID == 0) return getAllMon_DAL();
+            else
+            {
+                foreach (Mon i in getAllMon_DAL())
+                {
+                    if (ID == i.IdDanhMuc)
+                    {
+                        data.Add(i);
+                    }
+                }
+            }
+            return data;
+        }
+        public List<Mon> getListMonBySearch_DAL(int ID, string st)
+        {
+            List<Mon> data = new List<Mon>();
+            if(ID==0 && st=="")
+            {
+                return getAllMon_DAL();
+            }    
+            if(ID==0 && st!="")
+            {
+                foreach(Mon i in getAllMon_DAL())
+                {
+                    if((i.TenMon).Contains(st)==true || ((i.GiaTien).ToString()).Contains(st) == true)
+                    {
+                        data.Add(i);
+                    }    
+                }    
+            }   
+            if(ID!=0 && st=="")
+            {
+                return getListMonById(ID);
+            }    
+            if(ID!=0 && st!="")
+            {
+                foreach (Mon i in getListMonById(ID))
+                {
+                    if ((i.TenMon).Contains(st) == true || ((i.GiaTien).ToString()).Contains(st) == true)
+                    {
+                        data.Add(i);
+                    }
+                }
+            }
+            return data;
+        }
         private Mon getMon(DataRow i)
         {
             return new Mon
@@ -106,6 +155,7 @@ namespace DAL
 
             };
         }
+        
 
         public bool XoaMonTheoIdMon(int IdMon)
         {
@@ -130,8 +180,9 @@ namespace DAL
                     if (i.IdMon == IdMon)
                     {
                         return true;
-                        break;
+                        
                     }
+                    break;
                 }
                 return false;
             }
