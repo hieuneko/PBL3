@@ -88,11 +88,25 @@ namespace DAL
                 }
                 return listMon;
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 return null;
             }
         }
+        private Mon getMon(DataRow i)
+        {
+            return new Mon
+            {
+                IdMon = int.Parse(i["IdMon"].ToString()),
+                TenMon = i["TenMon"].ToString(),
+                SoLanGoiMon = int.Parse(i["SoLanGoiMon"].ToString()),
+                GiaTien = int.Parse(i["GiaTien"].ToString()),
+                IdDanhMuc = Convert.ToInt32(i["IdDanhMuc"].ToString()),
+                IdAnh = Convert.ToInt32(i["IdAnh"].ToString()),
+
+            };
+        }
+
         public List<Mon> getListMonById(int ID)
         {
             List<Mon> data = new List<Mon>();
@@ -112,25 +126,25 @@ namespace DAL
         public List<Mon> getListMonBySearch_DAL(int ID, string st)
         {
             List<Mon> data = new List<Mon>();
-            if(ID==0 && st=="")
+            if (ID == 0 && st == "")
             {
                 return getAllMon_DAL();
-            }    
-            if(ID==0 && st!="")
+            }
+            if (ID == 0 && st != "")
             {
-                foreach(Mon i in getAllMon_DAL())
+                foreach (Mon i in getAllMon_DAL())
                 {
-                    if((i.TenMon).Contains(st)==true || ((i.GiaTien).ToString()).Contains(st) == true)
+                    if ((i.TenMon).Contains(st) == true || ((i.GiaTien).ToString()).Contains(st) == true)
                     {
                         data.Add(i);
-                    }    
-                }    
-            }   
-            if(ID!=0 && st=="")
+                    }
+                }
+            }
+            if (ID != 0 && st == "")
             {
                 return getListMonById(ID);
-            }    
-            if(ID!=0 && st!="")
+            }
+            if (ID != 0 && st != "")
             {
                 foreach (Mon i in getListMonById(ID))
                 {
@@ -142,21 +156,6 @@ namespace DAL
             }
             return data;
         }
-        private Mon getMon(DataRow i)
-        {
-            return new Mon
-            {
-                IdMon = int.Parse(i["IdMon"].ToString()),
-                TenMon = i["TenMon"].ToString(),
-                SoLanGoiMon = int.Parse(i["SoLanGoiMon"].ToString()),
-                GiaTien = int.Parse(i["GiaTien"].ToString()),
-                IdDanhMuc = Convert.ToInt32(i["IdDanhMuc"].ToString()),
-                IdAnh = (byte[])i["Gender"]
-
-            };
-        }
-        
-
         public bool XoaMonTheoIdMon(int IdMon)
         {
             try

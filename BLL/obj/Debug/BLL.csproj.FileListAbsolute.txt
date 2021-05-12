@@ -15,3 +15,12 @@ E:\GitHub\PBL3\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
 E:\GitHub\PBL3\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 E:\GitHub\PBL3\BLL\obj\Debug\BLL.dll
 E:\GitHub\PBL3\BLL\obj\Debug\BLL.pdb
+E:\GitHub\PBL3\BLL\bin\Debug\BLL.dll
+E:\GitHub\PBL3\BLL\bin\Debug\BLL.pdb
+E:\GitHub\PBL3\BLL\bin\Debug\DAL.dll
+E:\GitHub\PBL3\BLL\bin\Debug\DTO.dll
+E:\GitHub\PBL3\BLL\bin\Debug\DBProvider.dll
+E:\GitHub\PBL3\BLL\bin\Debug\DAL.pdb
+E:\GitHub\PBL3\BLL\bin\Debug\DTO.pdb
+E:\GitHub\PBL3\BLL\bin\Debug\DBProvider.pdb
+E:\GitHub\PBL3\BLL\obj\Debug\BLL.csproj.CopyComplete

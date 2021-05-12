@@ -46,9 +46,38 @@ namespace BLL
         {
             return DataAccessLayer.Instance.getAllMon_DAL();
         }
-        public List<Mon> getListMonBySearch_BLL(int id,string st)
+        public List<MonView> getListMonBySearch_BLL(int id,string st)
         {
-            return DataAccessLayer.Instance.getListMonBySearch_DAL(id, st);
+            List<MonView> data = new List<MonView>();
+            data = ConvertToListMonview(DataAccessLayer.Instance.getListMonBySearch_DAL(id, st));
+            return data;
+        }
+        public MonView ConvertToMonView(Mon m)
+        {
+            MonView mv = new MonView();
+            foreach(DanhMuc i in getAllDanhMuc_BLL())
+            {
+                if(m.IdDanhMuc==i.IdDanhMuc)
+                {
+                    mv.IdMon = m.IdMon;
+                    mv.TenMon = m.TenMon;
+                    mv.GiaTien = m.GiaTien;
+                    mv.SoLuong = 1000;
+                    mv.SoLanGoiMon = m.SoLanGoiMon;
+                    mv.DanhMuc = i.TenDanhMuc;
+                    break;
+                }    
+            }
+            return mv;
+        }
+        public List<MonView> ConvertToListMonview(List<Mon> m)
+        {
+            List<MonView> mv = new List<MonView>();
+            foreach(Mon i in m)
+            {
+                mv.Add(ConvertToMonView(i));
+            }
+            return mv;
         }
     }
 }

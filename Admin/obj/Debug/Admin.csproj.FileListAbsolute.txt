@@ -40,3 +40,16 @@ E:\GitHub\PBL3\Admin\obj\Debug\Admin.csproj.GenerateResource.cache
 E:\GitHub\PBL3\Admin\obj\Debug\Admin.csproj.CoreCompileInputs.cache
 E:\GitHub\PBL3\Admin\obj\Debug\Admin.exe
 E:\GitHub\PBL3\Admin\obj\Debug\Admin.pdb
+E:\GitHub\PBL3\Admin\bin\Debug\Admin.exe.config
+E:\GitHub\PBL3\Admin\bin\Debug\Admin.exe
+E:\GitHub\PBL3\Admin\bin\Debug\Admin.pdb
+E:\GitHub\PBL3\Admin\bin\Debug\BLL.dll
+E:\GitHub\PBL3\Admin\bin\Debug\DAL.dll
+E:\GitHub\PBL3\Admin\bin\Debug\DBProvider.dll
+E:\GitHub\PBL3\Admin\bin\Debug\DTO.dll
+E:\GitHub\PBL3\Admin\bin\Debug\Guna.UI2.dll
+E:\GitHub\PBL3\Admin\bin\Debug\DAL.pdb
+E:\GitHub\PBL3\Admin\bin\Debug\DBProvider.pdb
+E:\GitHub\PBL3\Admin\bin\Debug\DTO.pdb
+E:\GitHub\PBL3\Admin\bin\Debug\BLL.pdb
+E:\GitHub\PBL3\Admin\obj\Debug\Admin.csproj.CopyComplete

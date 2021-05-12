@@ -43,7 +43,7 @@ namespace Admin
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textSearch = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -51,10 +51,10 @@ namespace Admin
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxSX = new System.Windows.Forms.ComboBox();
+            this.comboBoxDM = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewDSMon = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -71,7 +71,7 @@ namespace Admin
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDSMon)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -207,7 +207,7 @@ namespace Admin
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.textBox2);
+            this.tabPage2.Controls.Add(this.textSearch);
             this.tabPage2.Controls.Add(this.button8);
             this.tabPage2.Controls.Add(this.button7);
             this.tabPage2.Controls.Add(this.button6);
@@ -215,8 +215,8 @@ namespace Admin
             this.tabPage2.Controls.Add(this.button3);
             this.tabPage2.Controls.Add(this.button4);
             this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Controls.Add(this.comboBox3);
-            this.tabPage2.Controls.Add(this.comboBox2);
+            this.tabPage2.Controls.Add(this.comboBoxSX);
+            this.tabPage2.Controls.Add(this.comboBoxDM);
             this.tabPage2.Controls.Add(this.groupBox2);
             this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
@@ -227,12 +227,12 @@ namespace Admin
             this.tabPage2.Text = "Món Ăn";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // textSearch
             // 
-            this.textBox2.Location = new System.Drawing.Point(652, 36);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(266, 30);
-            this.textBox2.TabIndex = 4;
+            this.textSearch.Location = new System.Drawing.Point(652, 36);
+            this.textSearch.Name = "textSearch";
+            this.textSearch.Size = new System.Drawing.Size(266, 30);
+            this.textSearch.TabIndex = 4;
             // 
             // button8
             // 
@@ -299,25 +299,25 @@ namespace Admin
             this.label3.TabIndex = 2;
             this.label3.Text = "Danh mục:";
             // 
-            // comboBox3
+            // comboBoxSX
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(740, 480);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(176, 33);
-            this.comboBox3.TabIndex = 1;
+            this.comboBoxSX.FormattingEnabled = true;
+            this.comboBoxSX.Location = new System.Drawing.Point(740, 480);
+            this.comboBoxSX.Name = "comboBoxSX";
+            this.comboBoxSX.Size = new System.Drawing.Size(176, 33);
+            this.comboBoxSX.TabIndex = 1;
             // 
-            // comboBox2
+            // comboBoxDM
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(139, 33);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(251, 33);
-            this.comboBox2.TabIndex = 1;
+            this.comboBoxDM.FormattingEnabled = true;
+            this.comboBoxDM.Location = new System.Drawing.Point(139, 33);
+            this.comboBoxDM.Name = "comboBoxDM";
+            this.comboBoxDM.Size = new System.Drawing.Size(251, 33);
+            this.comboBoxDM.TabIndex = 1;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.dataGridView1);
+            this.groupBox2.Controls.Add(this.dataGridViewDSMon);
             this.groupBox2.Location = new System.Drawing.Point(30, 99);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(891, 342);
@@ -325,16 +325,16 @@ namespace Admin
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách món:";
             // 
-            // dataGridView1
+            // dataGridViewDSMon
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 26);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(885, 313);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridViewDSMon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewDSMon.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewDSMon.Location = new System.Drawing.Point(3, 26);
+            this.dataGridViewDSMon.Name = "dataGridViewDSMon";
+            this.dataGridViewDSMon.RowHeadersWidth = 51;
+            this.dataGridViewDSMon.RowTemplate.Height = 24;
+            this.dataGridViewDSMon.Size = new System.Drawing.Size(885, 313);
+            this.dataGridViewDSMon.TabIndex = 0;
             // 
             // tabPage3
             // 
@@ -462,7 +462,7 @@ namespace Admin
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDSMon)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -488,19 +488,19 @@ namespace Admin
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textSearch;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBoxDM;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridViewDSMon;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBoxSX;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button9;
